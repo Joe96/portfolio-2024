@@ -1,0 +1,38 @@
+/* styles.css */
+
+.navbar {
+  background-color: #191919; /* Change to your desired background color */
+  /* Add additional styles as needed */
+  border-bottom: 1px solid #FFFFFF; /* Bottom border color for the navbar */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-dropdown {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+  
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center vertically */
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-link, .navbar-brand {
+  color: #FFFFFF !important; /* Change to your desired text color */
+  font-family: 'Comic Sans MS', cursive;
+}
+
+/* Change color on hover */
+.nav-link:hover, .navbar-brand:hover {
+  color: #DDBB84 !important; /* Change to your desired hover color */
+}
+
+/* Change color for active link */
+.nav-item.active .nav-link {
+  color: #DDBB84 !important; /* Change to your desired active link color */
+}

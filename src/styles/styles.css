@@ -1,0 +1,41 @@
+/* Global styles */
+.web-text {
+  color: #FFFFFF; /* Set the desired text color */
+}
+
+.style-page {
+  background-color: #191919; /* Change to the desired background color */
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 5px; /* adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF; /* change background color if desired */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; /* adjust border-radius as needed */
+  background: #DDBB84; /* change thumb color if desired */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF; /* change thumb color on hover if desired */
+}
+
+.divider {
+  border-left: 2px solid #FFFFFF; /* Specify border properties */
+  height: 80%; /* Adjust height as needed */
+  margin: 0 20px; /* Add margin for spacing */
+}
+
+.dark-icon {
+  color: #FFFFFF; /* Dark color of your choice */
+}
+
+.icon-link {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
